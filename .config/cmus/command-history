@@ -1,0 +1,11 @@
+q
+colorscheme monokai
+set colorscheme monokai
+add ~/Music
+clear
+help
+rm *
+del 
+d
+a ~/Music
+q!

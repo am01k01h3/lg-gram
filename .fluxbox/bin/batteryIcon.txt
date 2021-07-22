@@ -1,0 +1,7 @@
+
+#Link to Project
+#https://github.com/miebach/fluxbox-battery-icon
+
+#Setup:
+sudo apt-get install acpi libgtk2-perl
+

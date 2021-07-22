@@ -1,0 +1,45 @@
+#!/usr/bin/python3
+
+from libqtile import widget
+
+rofimenu    = "rofi"
+Terminal1   = "alacritty"
+
+def widget_quick_launch_apps():
+    apps_list =[
+        #[ software_name, command_to_execute, comment, default_icon ],
+        { "name": 'Menu',           "command": rofimenu,        "comment": 'Rofi Menu',     "icon": '/home/amol/.config/qtile/icons/view-grid.png' },
+        { "name": 'Firefox',        "command": 'firefox',       "comment": 'Firefox Web Browser', "icon": '/home/amol/.config/qtile/icons/firefox.png' },
+        { "name": 'Qutebrowser',    "command": 'qutebrowser',   "comment": '', "icon": '/home/amol/.config/qtile/icons/qutebrowser.png' },
+        { "name": 'File Manager',   "command": 'pcmanfm',       "comment": '', "icon": '/home/amol/.config/qtile/icons/pcmanfm.png' },
+        { "name": 'Text Editor',    "command": 'gedit',         "comment": '', "icon": '/home/amol/.config/qtile/icons/texteditor.png' },
+        { "name": 'Terminal',       "command": Terminal1,       "comment": '', "icon": '/home/amol/.config/qtile/icons/terminal2.png' },
+        { "name": 'Cryptomator',    "command": 'cryptomator',   "comment": '', "icon": '/home/amol/.config/qtile/icons/cryptomator.png' },
+        { "name": 'KeePassXC',      "command": 'keepassxc',     "comment": '', "icon": '/home/amol/.config/qtile/icons/keepassxc.png' },
+        ]
+
+#widget.LaunchBar(
+#	progs = ( ('Menu', rofimenu, 'Rofi Menu'),),
+#	default_icon = "/home/amol/.config/qtile/icons/view-grid.png",
+#	padding = 0,
+#),
+   
+#    widgets_list = { }
+#    widgets_list = set()
+    widgets_list = ""
+    for app in apps_list:
+        #widgets_list.add(
+        #    'widget.LaunchBar( progs = ( "{}" , "{}", "{}" ), default_icon = "{}", padding = 0,)'.format(app["name"], app["command"], app["comment"], app["icon"])
+        #    )
+        #widget_list = { ( app["name"], app["command"], app["comment"] ), default_icon = app["icon"], padding = 0, }
+        widgets_item = "widget.LaunchBar( progs = (( '{}' , '{}', '{}' ), ), default_icon = '{}', padding = 0,),\n".format(app["name"], app["command"], app["comment"], app["icon"])
+        widgets_list = widgets_list + widgets_item
+
+    #return ( prog_list[0][0] )
+    #return prog_list[0]["name"]
+    #return d[0]["name"]
+    print( widgets_list )
+    return widgets_list
+
+print( widget_quick_launch_apps() )
+

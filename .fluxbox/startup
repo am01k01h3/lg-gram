@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+fluxbox &
+fbpid=$!
+
+
+sleep 1
+
+~/.fluxbox/startup.sh &
+
+#exec fluxbox
+wait $fbpid

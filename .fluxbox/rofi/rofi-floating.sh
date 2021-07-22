@@ -1,0 +1,2 @@
+rofi $* -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal urxvt -theme ~/.config/rofi/themes/Siera-alt.rasi -display-drun "Apps " -display-run "Cmds " -display-window "Windows "
+

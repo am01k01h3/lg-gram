@@ -1,0 +1,11 @@
+rofi.theme: /usr/share/rofi/themes/android_notification.rasi
+
+/** Configured For Applets **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+  location: 5;
+  yoffset: -50;
+  xoffset: -20;
+}

@@ -1,0 +1,37 @@
+naivecalendar (0.3.5) UNRELEASED; urgency=medium
+
+  * Add multiple events folder (replace notes)
+  * Add a menu button
+  * Better symbols support for event files names
+
+ -- Daguhh <code.daguhh@zaclys.net>  Fri, 22 Jan 2021 00:24:24 +0100
+
+naivecalendar (0.3.4) UNRELEASED; urgency=medium
+
+  * Add copy-to-clipboard option
+
+ -- Daguhh <code.daguhh@zaclys.net>  Wed, 20 Jan 2021 00:23:47 +0100
+
+naivecalendar (0.3.3) UNRELEASED; urgency=medium
+
+  * Remove tkinter dependencies (switch to full rofi popup)
+
+ -- Daguhh <code.daguhh@zaclys.net>  Tue, 12 Jan 2021 22:50:25 +0100
+
+naivecalendar (0.3.2) UNRELEASED; urgency=medium
+
+  * Add "open at date" command option
+
+ -- Daguhh <code.daguhh@zaclys.net>  Sat, 09 Jan 2021 23:23:42 +0100
+
+naivecalendar (0.3.1) UNRELEASED; urgency=medium
+
+  * Make deb package
+
+ -- Daguhh <code.daguhh@zaclys.net>  Fri, 08 Jan 2021 15:58:02 +0100
+
+naivecalendar (0.3) unstable; urgency=medium
+
+  * Initial release 
+
+ -- Daguhh <code.daguhh@zaclys.net>  Fri, 08 Jan 2021 10:36:46 +0100

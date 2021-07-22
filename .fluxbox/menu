@@ -1,0 +1,186 @@
+[begin] (Fluxbox)
+  [submenu] (Favorites) {} <>
+  [include] (/home/amol/.fluxbox/favoritesmenu)
+  [end]
+[separator]
+  [submenu] (Accessories) {} <>
+    [exec] (Archive Manager) {file-roller} <>
+    [exec] (Backups) {deja-dup} <>
+    [exec] (Bluetooth Transfer) {bluetooth-sendto} </usr/share/icons/hicolor/48x48/apps/bluetooth.png>
+    [exec] (Caffeine-ng) {/usr/bin/caffeine} </usr/share/pixmaps/caffeine.png>
+    [exec] (Calculator) {gnome-calculator} <>
+    [exec] (Characters) {/usr/bin/gnome-characters} <>
+    [exec] (Clocks) {gnome-clocks} <>
+    [exec] (Disks) {gnome-disks} <>
+    [exec] (Dynamic Wallpaper Editor) {dynamic-wallpaper-editor} </usr/share/icons/hicolor/48x48/apps/com.github.maoschanz.DynamicWallpaperEditor.png>
+    [exec] (Extensions) {/usr/bin/gnome-extensions-app} <>
+    [exec] (Files) {nautilus} <>
+    [exec] (Firmware) {gnome-firmware} <>
+    [exec] (Fonts) {gnome-font-viewer} <>
+    [exec] (Gestures) {gestures} <>
+    [exec] (GtkHash) {gtkhash} </usr/share/icons/hicolor/48x48/apps/org.gtkhash.gtkhash.png>
+    [exec] (Help) {yelp} <>
+    [exec] (HP Device Manager) {hp-toolbox} </usr/share/hplip/data/images/128x128/hp_logo.png>
+    [exec] (KeePassXC) {keepassxc} </usr/share/icons/hicolor/256x256/apps/keepassxc.png>
+    [exec] (Layouts) {gnome-layout-switcher} </usr/share/icons/hicolor/scalable/apps/gnome-layout-switcher.svg>
+    [exec] (Manjaro User Guide) {/usr/bin/manjaro-documentation} <>
+    [exec] (Maps) {gapplication} <>
+    [exec] (Screenshot) {gnome-screenshot} <>
+    [exec] (Software Token (small)) {stoken-gui} </usr/share/pixmaps/stoken-gui.png>
+    [exec] (Software Token) {stoken-gui} </usr/share/pixmaps/stoken-gui.png>
+    [exec] (Text Editor) {gedit} <>
+    [exec] (To Do) {gnome-todo} </usr/share/icons/hicolor/48x48/apps/org.gnome.Todo.png>
+    [exec] (Tweaks) {gnome-tweaks} <>
+    [exec] (Weather) {gapplication} <>
+  [end]
+  [submenu] (Development) {} <>
+    [exec] (Icon Browser) {yad-icon-browser} </usr/share/icons/hicolor/48x48/apps/yad.png>
+  [end]
+  [submenu] (Games) {} <>
+  [end]
+  [submenu] (Graphics) {} <>
+    [exec] (Document Scanner) {simple-scan} <>
+    [exec] (Feh) {feh} </usr/share/icons/hicolor/48x48/apps/feh.png>
+    [exec] (GNU Image Manipulation Program) {gimp-2.10} </usr/share/icons/hicolor/48x48/apps/gimp.png>
+    [exec] (gThumb) {gthumb} </usr/share/icons/hicolor/256x256/apps/org.gnome.gThumb.png>
+  [end]
+  [submenu] (Internet) {} <>
+    [exec] (Avahi SSH Server Browser) {/usr/bin/bssh} </usr/share/icons/Adwaita/48x48/legacy/network-wired.png>
+    [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc} </usr/share/icons/Adwaita/48x48/legacy/network-wired.png>
+    [exec] (Firefox) {/usr/lib/firefox/firefox} </usr/share/icons/hicolor/48x48/apps/firefox.png>
+    [exec] (Geary) {geary} <>
+    [exec] (GSConnect) {gapplication} <>
+    [exec] (GSConnect Preferences) {gapplication} <>
+    [exec] (Transmission) {transmission-gtk} </usr/share/pixmaps/transmission.png>
+    [exec] (Web Apps) {webapp-manager} <>
+    [exec] (Zoom) {/usr/bin/zoom} </usr/share/pixmaps/Zoom.png>
+  [end]
+  [submenu] (Office) {} <>
+    [exec] (Calendar) {gnome-calendar} <>
+    [exec] (Contacts) {gnome-contacts} <>
+    [exec] (Document Viewer) {evince} <>
+    [exec] (LibreOffice Base) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-base.png>
+    [exec] (LibreOffice Calc) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-calc.png>
+    [exec] (LibreOffice Draw) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-draw.png>
+    [exec] (LibreOffice Impress) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-impress.png>
+    [exec] (LibreOffice) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-startcenter.png>
+    [exec] (LibreOffice Math) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-math.png>
+    [exec] (LibreOffice Writer) {libreoffice} </usr/share/icons/hicolor/48x48/apps/libreoffice-writer.png>
+    [exec] (LibreOffice XSLT based filters) {libreoffice} </usr/share/applications/libreoffice-xsltfilter.desktop>
+    [exec] (ONLYOFFICE Desktop Editors) {/usr/bin/onlyoffice} </usr/share/icons/hicolor/48x48/apps/asc-de.png>
+    [exec] (Print Preview) {evince-previewer} </usr/share/icons/Adwaita/48x48/legacy/document-print-preview.png>
+  [end]
+  [submenu] (Sound & Video) {} <>
+    [exec] (Cheese) {cheese} <>
+    [exec] (Lollypop) {lollypop} </usr/share/icons/hicolor/48x48/apps/org.gnome.Lollypop.png>
+    [exec] (Qt V4L2 test Utility) {qv4l2} </usr/share/icons/hicolor/32x32/apps/qv4l2.png>
+    [exec] (Qt V4L2 video capture utility) {qvidcap} </usr/share/icons/hicolor/32x32/apps/qvidcap.png>
+    [exec] (Videos) {totem} <>
+    [exec] (VLC media player) {/usr/bin/vlc} </usr/share/icons/hicolor/48x48/apps/vlc.png>
+  [end]
+[separator]
+  [submenu] (All Apps) {} <>
+  [include] (/home/amol/.fluxbox/allappsmenu)
+  [end]
+[separator]
+  [submenu] (System Tools) {} <>
+    [exec] (Alacritty) {alacritty} <>
+    [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover} </usr/share/icons/Adwaita/48x48/legacy/network-wired.png>
+    [exec] (Color Picker) {gcm-picker} </usr/share/icons/hicolor/48x48/apps/gnome-color-manager.png>
+    [exec] (Color Profile Viewer) {gcm-viewer} </usr/share/icons/hicolor/48x48/apps/gnome-color-manager.png>
+    [exec] (dconf Editor) {dconf-editor} </usr/share/icons/hicolor/48x48/apps/ca.desrt.dconf-editor.png>
+    [exec] (Disk Usage Analyzer) {baobab} <>
+    [exec] (GNOME System Monitor) {gnome-system-monitor} <>
+    [exec] (GParted) {/usr/bin/gparted} </usr/share/icons/hicolor/48x48/apps/gparted.png>
+    [exec] (Hardware Locality lstopo) {lstopo} </usr/share/applications/lstopo.desktop>
+    [exec] (Htop) {htop} </usr/share/pixmaps/htop.png>
+    [exec] (ICC Profile Installer) {/usr/bin/gcm-import} <>
+    [exec] (Keyboard Layout) {gkbd-keyboard-display} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop-keyboard.png>
+    [exec] (Libinput Gestures) {/usr/bin/libinput-gestures} <>
+    [exec] (LSHW) {/usr/sbin/gtk-lshw} </usr/share/lshw/artwork/logo.svg>
+    [exec] (Manjaro Hello) {/usr/bin/manjaro-hello} </usr/share/icons/manjaro.png>
+    [exec] (ranger) {ranger} </home/amol/.fluxbox/icons/utilities-terminal.png>
+    [exec] (Sakura) {sakura} <>
+    [exec] (Software Installer) {pamac-installer} </usr/share/icons/Adwaita/48x48/legacy/system-software-install.png>
+    [exec] (System Log) {gnome-system-log} </usr/share/icons/hicolor/48x48/apps/logview.png>
+    [exec] (System Monitor) {gnome-system-monitor} <>
+    [exec] (Terminal) {gnome-terminal} <>
+    [exec] (Timeshift) {timeshift-launcher} </usr/share/icons/hicolor/48x48/apps/timeshift.png>
+    [exec] (Web Software Center Installer) {/usr/share/webapps/software-center-web-jak/web-installer-url-handler} </usr/share/icons/Adwaita/48x48/legacy/system-software-install.png>
+  [end]
+  [submenu] (Preferences) {} <>
+    [exec] (About) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/help-about.png>
+    [exec] (Accessibility) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop-accessibility.png>
+    [exec] (Add/Remove Software) {pamac-manager} </usr/share/icons/Adwaita/48x48/legacy/system-software-install.png>
+    [exec] (Advanced Network Configuration) {nm-connection-editor} </usr/share/icons/Adwaita/48x48/legacy/preferences-system-network.png>
+    [exec] (Applications) {gnome-control-center} <>
+    [exec] (Background) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop-wallpaper.png>
+    [exec] (Bluetooth) {gnome-control-center} </usr/share/icons/hicolor/48x48/apps/bluetooth.png>
+    [exec] (Caffeine-ng Preferences) {/usr/bin/caffeine} </usr/share/pixmaps/caffeine.png>
+    [exec] (Camera) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/camera-photo.png>
+    [exec] (Color) {gnome-control-center} </usr/share/icons/hicolor/48x48/apps/preferences-color.png>
+    [exec] (Date & Time) {gnome-control-center} </usr/share/icons/hicolor/48x48/apps/preferences-system-time.png>
+    [exec] (Default Applications) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/non-starred.png>
+    [exec] (Diagnostics) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/system-help.png>
+    [exec] (Displays) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop-display.png>
+    [exec] (File History & Trash) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/system-file-manager.png>
+    [exec] (Firewall Configuration) {gufw} </usr/share/icons/hicolor/48x48/apps/gufw.png>
+    [exec] (GSConnect Preferences) {gapplication} <>
+    [exec] (IBus Preferences) {ibus-setup} <>
+    [exec] (Keyboard Shortcuts) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/input-keyboard.png>
+    [exec] (Kvantum Manager) {kvantummanager} <>
+    [exec] (Location Services) {gnome-control-center} <>
+    [exec] (Main Menu) {alacarte} </usr/share/icons/hicolor/48x48/apps/alacarte.png>
+    [exec] (Manage Printing) {/usr/bin/xdg-open} </usr/share/icons/hicolor/32x32/apps/cups.png>
+    [exec] (Manjaro Notifier Settings) {msm_notifier} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop.png>
+    [exec] (Manjaro Settings Manager) {manjaro-settings-manager} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop.png>
+    [exec] (Microphone) {gnome-control-center} </usr/share/icons/HighContrast/48x48/devices/audio-input-microphone.png>
+    [exec] (Mouse & Touchpad) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/input-mouse.png>
+    [exec] (Network) {gnome-control-center} </usr/share/icons/Adwaita/48x48/places/network-workgroup.png>
+    [exec] (Notifications) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-system-notifications.png>
+    [exec] (Online Accounts) {gnome-control-center} </usr/share/icons/hicolor/48x48/apps/goa-panel.png>
+    [exec] (Passwords and Keys) {seahorse} <>
+    [exec] (Power) {gnome-control-center} </usr/share/icons/hicolor/48x48/apps/gnome-power-manager.png>
+    [exec] (Printers) {gnome-control-center} </usr/share/icons/Adwaita/48x48/devices/printer.png>
+    [exec] (Region & Language) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-desktop-locale.png>
+    [exec] (Removable Media) {gnome-control-center} </usr/share/icons/Adwaita/48x48/devices/media-removable.png>
+    [exec] (Rygel Preferences) {rygel-preferences} </usr/share/icons/hicolor/48x48/apps/rygel.png>
+    [exec] (Screen Lock) {gnome-control-center} <>
+    [exec] (Search) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-system-search.png>
+    [exec] (Settings) {gnome-control-center} <>
+    [exec] (Sharing) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/preferences-system-sharing.png>
+    [exec] (Sound) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/multimedia-volume-control.png>
+    [exec] (Thunderbolt) {gnome-control-center} <>
+    [exec] (Users) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/system-users.png>
+    [exec] (Wacom Tablet) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/input-tablet.png>
+    [exec] (Wi-Fi) {gnome-control-center} </usr/share/icons/Adwaita/48x48/legacy/network-wireless.png>
+    [exec] (YAD settings) {yad-settings} </usr/share/icons/hicolor/48x48/apps/yad.png>
+  [end]
+
+  [submenu] (Fluxbox Menu)
+    [submenu] (User Styles) {Choose a style...}
+      [stylesdir] (/home/amol/.fluxbox/styles)
+    [end]
+    [submenu] (Styles) {}
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (/home/amol/.fluxbox/styles)
+    [end]
+    [submenu] (Backgrounds)
+      [wallpapers] (/usr/share/backgrounds)
+      [wallpapers] (~/Pictures/wallpapers)
+      [wallpapers] (~/Pictures)
+    [end]
+    [workspaces] (Workspaces)
+    [config] (Configuration)
+    [reconfig] (Reconfigure)
+    [restart] (Restart)
+    [exit] (Exit)
+  [end]
+  [separator]
+  
+  [submenu] (Exit) {} <>
+  [include] (/home/amol/.fluxbox/exitmenu)
+  [end]
+
+[end]
+

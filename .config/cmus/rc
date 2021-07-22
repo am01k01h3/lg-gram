@@ -1,0 +1,6 @@
+set format_title="%{title} - %{artist}"
+#set format_title= %{title} - %{artist}
+fset colorscheme=monokai
+#fset colorscheme=itunes
+fset set_term_title=false
+
