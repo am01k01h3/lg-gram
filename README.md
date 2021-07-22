@@ -1,4 +1,4 @@
-# lg-gram
+# LG Gram Dot Files
 
 Dot Files from LG Gram 16" 2021, model 16Z90P, running Manjaro 21
 
