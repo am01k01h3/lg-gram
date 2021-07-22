@@ -13,5 +13,5 @@ Dot Files from LG Gram 16" 2021, model 16Z90P, running Manjaro 21
 
 
 More Tmux, vim, htop and neofetch
+![Screenshot from 2021-07-22 15-03-12](https://user-images.githubusercontent.com/62161236/126695383-51d479d3-6a98-4940-a650-5f98a83c253e.png)
 
-![Screenshot from 2021-07-22 15-03-12](/home/amol/Pictures/Screenshot from 2021-07-22 15-03-12.png)
